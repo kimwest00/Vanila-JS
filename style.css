@@ -6,6 +6,7 @@ h1{
     /*animation 효과 추가*/
     transition: color .5s ease-in-out;
 }
+/*test*/
 .active{
     color:blue;
 }
