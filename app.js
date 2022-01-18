@@ -4,7 +4,7 @@ const loginInput = loginForm.querySelector("input");
 const loginButton = loginForm.querySelector("button");
 function onLoginSubmit(inform){
     inform.preventDefault();
-    console.log(inform);
+    console.log(inform);//onLoginSubmit 함수에 대한 인자로 값을 전달받고있다
 }
 loginForm.addEventListener("submit",onLoginSubmit);
 document.getElement
