@@ -8,7 +8,8 @@ const greeting = document.querySelector("#greeting");
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
 function onLoginSubmit(event){
-    event.preventDefault();//기본동작인 브라우저 새로고침을 막고있다
+    event.preventDefault();//기본동작인 브라우저 새로고침을 막고있다\
+    console.log(event)
     loginForm.classList.add(HIDDEN_CLASSNAME);
     const username = loginInput.value;//onLoginSubmit 함수에 대한 인자로 값을 전달받고있다
     localStorage.setItem("username",username);
